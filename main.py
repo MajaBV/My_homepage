@@ -17,10 +17,6 @@ def about_me():
 def portfolio():
     return render_template("portfolio.html")
 
-@app.route("/portfolio/fakebook")
-def fakebook():
-    return render_template("fakebook.html")
-
 
 if __name__ == '__main__':
     app.run()
